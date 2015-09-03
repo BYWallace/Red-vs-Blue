@@ -20,6 +20,8 @@ class InterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        
+        setupBlue()
     }
 
     override func willActivate() {
@@ -33,7 +35,15 @@ class InterfaceController: WKInterfaceController {
     }
 
     @IBAction func resetButtonPressed() {
-        
+        setupBlue()
+    }
+    
+    @IBAction func switchTapped(value: Bool) {
+        if value == false {
+            setupRed()
+        } else {
+            setupBlue()
+        }
     }
     
     @IBAction func sliderTapped(value: Float) {

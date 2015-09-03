@@ -18,7 +18,11 @@
                                         <action selector="sliderTapped:" destination="AgC-eL-Hgc" id="bHr-ze-mYD"/>
                                     </connections>
                                 </slider>
-                                <switch width="1" alignment="left" value="YES" title="Blue/Red" id="n6T-fZ-k62"/>
+                                <switch width="1" alignment="left" value="YES" title="Blue/Red" id="n6T-fZ-k62">
+                                    <connections>
+                                        <action selector="switchTapped:" destination="AgC-eL-Hgc" id="0PH-ga-iJ0"/>
+                                    </connections>
+                                </switch>
                                 <button width="1" alignment="left" title="Reset" id="nNL-sW-jms">
                                     <connections>
                                         <action selector="resetButtonPressed" destination="AgC-eL-Hgc" id="f7B-44-nzV"/>
