@@ -13,7 +13,11 @@
                         <group width="1" alignment="left" layout="vertical" id="VtF-d2-rTL">
                             <items>
                                 <label alignment="left" text="Label" id="hU4-GB-nFg"/>
-                                <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="jaG-8P-5vy"/>
+                                <slider width="1" alignment="left" value="0.5" steps="5" id="jaG-8P-5vy">
+                                    <connections>
+                                        <action selector="sliderTapped:" destination="AgC-eL-Hgc" id="bHr-ze-mYD"/>
+                                    </connections>
+                                </slider>
                                 <switch width="1" alignment="left" value="YES" title="Blue/Red" id="n6T-fZ-k62"/>
                                 <button width="1" alignment="left" title="Reset" id="nNL-sW-jms">
                                     <connections>

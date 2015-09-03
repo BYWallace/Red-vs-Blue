@@ -35,4 +35,32 @@ class InterfaceController: WKInterfaceController {
     @IBAction func resetButtonPressed() {
         
     }
+    
+    @IBAction func sliderTapped(value: Float) {
+    }
+    //MARK: - Helper Functions
+    
+    func setupBlue() {
+        let deepSkyBlue = UIColor(red: 0.0, green: 191.0, blue: 255.0, alpha: 1.0)
+        
+        colorGroup.setBackgroundColor(deepSkyBlue)
+        colorGroup.setCornerRadius(0.0)
+        
+        colorSwitch.setOn(true)
+        colorSlider.setValue(1.0)
+        
+        colorLabel.setText("Cool")
+    }
+    
+    func setupRed() {
+        let fireBrickRed = UIColor(red: 153.0, green: 0.0, blue: 0.0, alpha: 1.0)
+        
+        colorGroup.setBackgroundColor(fireBrickRed)
+        colorGroup.setCornerRadius(0.0)
+        
+        colorSwitch.setOn(false)
+        colorSlider.setValue(1.0)
+        
+        colorLabel.setText("Hot")
+    }
 }
