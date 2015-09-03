@@ -47,7 +47,26 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func sliderTapped(value: Float) {
+        
+        switch value {
+        case 0.0:
+            colorGroup.setAlpha(0.15)
+        case 0.2:
+            colorGroup.setAlpha(0.2)
+        case 0.4:
+            colorGroup.setAlpha(0.4)
+        case 0.6:
+            colorGroup.setAlpha(0.6)
+        case 0.8:
+            colorGroup.setAlpha(0.8)
+        case 1.0:
+            colorGroup.setAlpha(1.0)
+        default:
+            println("Default value printed")
+        }
+        
     }
+    
     //MARK: - Helper Functions
     
     func setupBlue() {
