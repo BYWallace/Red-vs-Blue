@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FE2DDB621B97D60A004C2324"
+               BuildableName = "Red vs Blue WatchKit App.app"
+               BlueprintName = "Red vs Blue WatchKit App"
+               ReferencedContainer = "container:Red vs Blue.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "FE2DDB2F1B97D5F3004C2324"
                BuildableName = "Red vs Blue.app"
                BlueprintName = "Red vs Blue"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE2DDB441B97D5F3004C2324"
-               BuildableName = "Red vs BlueTests.xctest"
-               BlueprintName = "Red vs BlueTests"
+               BlueprintIdentifier = "FE2DDB581B97D60A004C2324"
+               BuildableName = "Red vs Blue WatchKit Extension.appex"
+               BlueprintName = "Red vs Blue WatchKit Extension"
                ReferencedContainer = "container:Red vs Blue.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE2DDB441B97D5F3004C2324"
-               BuildableName = "Red vs BlueTests.xctest"
-               BlueprintName = "Red vs BlueTests"
-               ReferencedContainer = "container:Red vs Blue.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE2DDB2F1B97D5F3004C2324"
-            BuildableName = "Red vs Blue.app"
-            BlueprintName = "Red vs Blue"
+            BlueprintIdentifier = "FE2DDB621B97D60A004C2324"
+            BuildableName = "Red vs Blue WatchKit App.app"
+            BlueprintName = "Red vs Blue WatchKit App"
             ReferencedContainer = "container:Red vs Blue.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Red vs Blue">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE2DDB2F1B97D5F3004C2324"
-            BuildableName = "Red vs Blue.app"
-            BlueprintName = "Red vs Blue"
+            BlueprintIdentifier = "FE2DDB621B97D60A004C2324"
+            BuildableName = "Red vs Blue WatchKit App.app"
+            BlueprintName = "Red vs Blue WatchKit App"
             ReferencedContainer = "container:Red vs Blue.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FE2DDB621B97D60A004C2324"
+            BuildableName = "Red vs Blue WatchKit App.app"
+            BlueprintName = "Red vs Blue WatchKit App"
+            ReferencedContainer = "container:Red vs Blue.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Red vs Blue">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FE2DDB2F1B97D5F3004C2324"
-            BuildableName = "Red vs Blue.app"
-            BlueprintName = "Red vs Blue"
+            BlueprintIdentifier = "FE2DDB621B97D60A004C2324"
+            BuildableName = "Red vs Blue WatchKit App.app"
+            BlueprintName = "Red vs Blue WatchKit App"
             ReferencedContainer = "container:Red vs Blue.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FE2DDB621B97D60A004C2324"
+            BuildableName = "Red vs Blue WatchKit App.app"
+            BlueprintName = "Red vs Blue WatchKit App"
+            ReferencedContainer = "container:Red vs Blue.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

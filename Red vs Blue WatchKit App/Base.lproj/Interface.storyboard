@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Red_vs_Blue_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="VtF-d2-rTL">
+                            <items>
+                                <label alignment="left" text="Label" id="hU4-GB-nFg"/>
+                                <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="jaG-8P-5vy"/>
+                                <switch width="1" alignment="left" value="YES" title="Blue/Red" id="n6T-fZ-k62"/>
+                                <button width="1" alignment="left" title="Reset" id="nNL-sW-jms">
+                                    <connections>
+                                        <action selector="resetButtonPressed" destination="AgC-eL-Hgc" id="f7B-44-nzV"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="colorGroup" destination="VtF-d2-rTL" id="ayF-Or-m4b"/>
+                        <outlet property="colorLabel" destination="hU4-GB-nFg" id="Z44-jg-TiQ"/>
+                        <outlet property="colorSlider" destination="jaG-8P-5vy" id="Acn-zZ-oJF"/>
+                        <outlet property="colorSwitch" destination="n6T-fZ-k62" id="AOA-Pf-CSd"/>
+                        <outlet property="resetButton" destination="nNL-sW-jms" id="aDA-0s-oI0"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

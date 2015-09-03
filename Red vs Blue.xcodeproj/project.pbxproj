@@ -13,6 +13,12 @@
 		FE2DDB3D1B97D5F3004C2324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2DDB3C1B97D5F3004C2324 /* Images.xcassets */; };
 		FE2DDB401B97D5F3004C2324 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE2DDB3E1B97D5F3004C2324 /* LaunchScreen.xib */; };
 		FE2DDB4C1B97D5F3004C2324 /* Red_vs_BlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2DDB4B1B97D5F3004C2324 /* Red_vs_BlueTests.swift */; };
+		FE2DDB5E1B97D60A004C2324 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2DDB5D1B97D60A004C2324 /* InterfaceController.swift */; };
+		FE2DDB601B97D60A004C2324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2DDB5F1B97D60A004C2324 /* Images.xcassets */; };
+		FE2DDB641B97D60A004C2324 /* Red vs Blue WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FE2DDB631B97D60A004C2324 /* Red vs Blue WatchKit App.app */; };
+		FE2DDB6C1B97D60A004C2324 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2DDB6A1B97D60A004C2324 /* Interface.storyboard */; };
+		FE2DDB6E1B97D60A004C2324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2DDB6D1B97D60A004C2324 /* Images.xcassets */; };
+		FE2DDB711B97D60A004C2324 /* Red vs Blue WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FE2DDB591B97D60A004C2324 /* Red vs Blue WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = FE2DDB2F1B97D5F3004C2324;
 			remoteInfo = "Red vs Blue";
 		};
+		FE2DDB651B97D60A004C2324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE2DDB281B97D5F3004C2324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2DDB621B97D60A004C2324;
+			remoteInfo = "Red vs Blue WatchKit App";
+		};
+		FE2DDB6F1B97D60A004C2324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE2DDB281B97D5F3004C2324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2DDB581B97D60A004C2324;
+			remoteInfo = "Red vs Blue WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE2DDB781B97D60A004C2324 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FE2DDB711B97D60A004C2324 /* Red vs Blue WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FE2DDB301B97D5F3004C2324 /* Red vs Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red vs Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,14 @@
 		FE2DDB451B97D5F3004C2324 /* Red vs BlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Red vs BlueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2DDB4A1B97D5F3004C2324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE2DDB4B1B97D5F3004C2324 /* Red_vs_BlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_vs_BlueTests.swift; sourceTree = "<group>"; };
+		FE2DDB591B97D60A004C2324 /* Red vs Blue WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Red vs Blue WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2DDB5C1B97D60A004C2324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2DDB5D1B97D60A004C2324 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FE2DDB5F1B97D60A004C2324 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE2DDB631B97D60A004C2324 /* Red vs Blue WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red vs Blue WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2DDB691B97D60A004C2324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2DDB6B1B97D60A004C2324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FE2DDB6D1B97D60A004C2324 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE2DDB561B97D60A004C2324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +110,8 @@
 			children = (
 				FE2DDB321B97D5F3004C2324 /* Red vs Blue */,
 				FE2DDB481B97D5F3004C2324 /* Red vs BlueTests */,
+				FE2DDB5A1B97D60A004C2324 /* Red vs Blue WatchKit Extension */,
+				FE2DDB671B97D60A004C2324 /* Red vs Blue WatchKit App */,
 				FE2DDB311B97D5F3004C2324 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,8 @@
 			children = (
 				FE2DDB301B97D5F3004C2324 /* Red vs Blue.app */,
 				FE2DDB451B97D5F3004C2324 /* Red vs BlueTests.xctest */,
+				FE2DDB591B97D60A004C2324 /* Red vs Blue WatchKit Extension.appex */,
+				FE2DDB631B97D60A004C2324 /* Red vs Blue WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +165,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FE2DDB5A1B97D60A004C2324 /* Red vs Blue WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FE2DDB5D1B97D60A004C2324 /* InterfaceController.swift */,
+				FE2DDB5F1B97D60A004C2324 /* Images.xcassets */,
+				FE2DDB5B1B97D60A004C2324 /* Supporting Files */,
+			);
+			path = "Red vs Blue WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FE2DDB5B1B97D60A004C2324 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE2DDB5C1B97D60A004C2324 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE2DDB671B97D60A004C2324 /* Red vs Blue WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FE2DDB6A1B97D60A004C2324 /* Interface.storyboard */,
+				FE2DDB6D1B97D60A004C2324 /* Images.xcassets */,
+				FE2DDB681B97D60A004C2324 /* Supporting Files */,
+			);
+			path = "Red vs Blue WatchKit App";
+			sourceTree = "<group>";
+		};
+		FE2DDB681B97D60A004C2324 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE2DDB691B97D60A004C2324 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +211,12 @@
 				FE2DDB2C1B97D5F3004C2324 /* Sources */,
 				FE2DDB2D1B97D5F3004C2324 /* Frameworks */,
 				FE2DDB2E1B97D5F3004C2324 /* Resources */,
+				FE2DDB781B97D60A004C2324 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FE2DDB701B97D60A004C2324 /* PBXTargetDependency */,
 			);
 			name = "Red vs Blue";
 			productName = "Red vs Blue";
@@ -150,6 +241,39 @@
 			productReference = FE2DDB451B97D5F3004C2324 /* Red vs BlueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FE2DDB581B97D60A004C2324 /* Red vs Blue WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2DDB751B97D60A004C2324 /* Build configuration list for PBXNativeTarget "Red vs Blue WatchKit Extension" */;
+			buildPhases = (
+				FE2DDB551B97D60A004C2324 /* Sources */,
+				FE2DDB561B97D60A004C2324 /* Frameworks */,
+				FE2DDB571B97D60A004C2324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE2DDB661B97D60A004C2324 /* PBXTargetDependency */,
+			);
+			name = "Red vs Blue WatchKit Extension";
+			productName = "Red vs Blue WatchKit Extension";
+			productReference = FE2DDB591B97D60A004C2324 /* Red vs Blue WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FE2DDB621B97D60A004C2324 /* Red vs Blue WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2DDB721B97D60A004C2324 /* Build configuration list for PBXNativeTarget "Red vs Blue WatchKit App" */;
+			buildPhases = (
+				FE2DDB611B97D60A004C2324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Red vs Blue WatchKit App";
+			productName = "Red vs Blue WatchKit App";
+			productReference = FE2DDB631B97D60A004C2324 /* Red vs Blue WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +289,12 @@
 					FE2DDB441B97D5F3004C2324 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = FE2DDB2F1B97D5F3004C2324;
+					};
+					FE2DDB581B97D60A004C2324 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FE2DDB621B97D60A004C2324 = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -183,6 +313,8 @@
 			targets = (
 				FE2DDB2F1B97D5F3004C2324 /* Red vs Blue */,
 				FE2DDB441B97D5F3004C2324 /* Red vs BlueTests */,
+				FE2DDB581B97D60A004C2324 /* Red vs Blue WatchKit Extension */,
+				FE2DDB621B97D60A004C2324 /* Red vs Blue WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +334,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2DDB571B97D60A004C2324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2DDB601B97D60A004C2324 /* Images.xcassets in Resources */,
+				FE2DDB641B97D60A004C2324 /* Red vs Blue WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2DDB611B97D60A004C2324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2DDB6C1B97D60A004C2324 /* Interface.storyboard in Resources */,
+				FE2DDB6E1B97D60A004C2324 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE2DDB551B97D60A004C2324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2DDB5E1B97D60A004C2324 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +390,16 @@
 			isa = PBXTargetDependency;
 			target = FE2DDB2F1B97D5F3004C2324 /* Red vs Blue */;
 			targetProxy = FE2DDB461B97D5F3004C2324 /* PBXContainerItemProxy */;
+		};
+		FE2DDB661B97D60A004C2324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2DDB621B97D60A004C2324 /* Red vs Blue WatchKit App */;
+			targetProxy = FE2DDB651B97D60A004C2324 /* PBXContainerItemProxy */;
+		};
+		FE2DDB701B97D60A004C2324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2DDB581B97D60A004C2324 /* Red vs Blue WatchKit Extension */;
+			targetProxy = FE2DDB6F1B97D60A004C2324 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +418,14 @@
 				FE2DDB3F1B97D5F3004C2324 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FE2DDB6A1B97D60A004C2324 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE2DDB6B1B97D60A004C2324 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +566,62 @@
 			};
 			name = Release;
 		};
+		FE2DDB731B97D60A004C2324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Red_vs_Blue_WatchKit_Extension;
+				INFOPLIST_FILE = "Red vs Blue WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FE2DDB741B97D60A004C2324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Red_vs_Blue_WatchKit_Extension;
+				INFOPLIST_FILE = "Red vs Blue WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FE2DDB761B97D60A004C2324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Red vs Blue WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FE2DDB771B97D60A004C2324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Red vs Blue WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +647,22 @@
 			buildConfigurations = (
 				FE2DDB531B97D5F3004C2324 /* Debug */,
 				FE2DDB541B97D5F3004C2324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE2DDB721B97D60A004C2324 /* Build configuration list for PBXNativeTarget "Red vs Blue WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2DDB731B97D60A004C2324 /* Debug */,
+				FE2DDB741B97D60A004C2324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE2DDB751B97D60A004C2324 /* Build configuration list for PBXNativeTarget "Red vs Blue WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2DDB761B97D60A004C2324 /* Debug */,
+				FE2DDB771B97D60A004C2324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
